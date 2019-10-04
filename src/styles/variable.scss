@@ -1,0 +1,21 @@
+
+$length-5: 5px;
+$length-10: 10px;
+$length-20: 20px;
+$length-50: 50px;
+$light-bg: #fff;
+
+$online-color: #21d37d;
+$outline-color: #eeeeee;
+$warning-color: #e27104;
+
+$table-header-bg-color: #f2f2f2;
+$tr-hover-bg: #e6f7ff;
+
+$primary-color: #A42035;
+
+%overflow-dots {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,212 @@
+@import "normalize.css";
+@import "variable";
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:hover,
+a:active {
+  color: #333;
+  text-decoration: none;
+}
+
+.m-t-sm {
+  margin-top: $length-10;
+}
+
+.m-t-50 {
+  margin-top: $length-50;
+}
+
+.m-r-xs {
+  margin-right: $length-5;
+}
+
+.m-r-sm {
+  margin-right: $length-10;
+}
+
+.m-l-sm {
+  margin-left: $length-10;
+}
+
+.m-l-20 {
+  margin-left: $length-20;
+}
+
+.p-v-md {
+  padding: $length-20 0;
+}
+
+.p-sm {
+  padding: $length-10
+}
+
+.p-t-sm {
+  padding-top: $length-10;
+}
+
+.p-t-md {
+  padding-top: $length-20;
+}
+
+.p-b-sm {
+  padding-bottom: $length-10;
+}
+
+.p-b-md {
+  padding-bottom: $length-20;
+}
+
+.p-l-xs {
+  padding-left: $length-5;
+}
+
+.m-b-xs {
+  margin-bottom: 0.2rem;
+}
+
+.m-b-sm {
+  margin-bottom: $length-10;
+}
+
+.m-b-md {
+  margin-bottom: $length-20;
+}
+
+.no-h-padding {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.no-v-padding {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+
+.relative-position {
+  position: relative;
+}
+
+.clear-fix:before,
+.clear-fix:after {
+  clear: both;
+  display: table;
+  content: " ";
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.operate-text-danger {
+  color: rgb(244, 116, 118);
+}
+
+.font-red-color {
+  color: #ff0000;
+}
+
+.base-color {
+  color: #4b4f73;
+}
+
+.primary-color {
+  color: #358ED7;
+}
+
+.danger-color {
+  color: #f00;
+}
+
+.warn-color {
+  color: #e27104
+}
+
+.success-color {
+  color: #19a103;
+}
+
+.info-color {
+  color: #007aff !important;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+/* 文本溢出显示省略号 */
+.overflow-dots {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+
+
+.btn {
+  padding: 0.15rem 0.3rem;
+  border-radius: 0.1rem;
+  font-size: 0.3rem;
+  line-height: 1.4;
+
+  &.disabled {
+    border: solid 1px #ccc;
+    color: #fff;
+    background: #ccc;
+  }
+}
+
+.btn-default {
+  border: solid 1px #007aff;
+  color: #007aff;
+  background: #fff;
+}
+
+.btn-primary {
+  border: solid 1px #007aff;
+  color: #fff;
+  background: #007aff;
+}
+
+
+
+
+
+
+
+
