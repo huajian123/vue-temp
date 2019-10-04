@@ -1,4 +1,4 @@
-@import "normalize.css";
+@import "~normalize.css";
 @import "variable";
 
 *,
@@ -175,7 +175,6 @@ a:active {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-
 
 
 .btn {
